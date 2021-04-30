@@ -1,0 +1,7 @@
+{
+    "host": "bili-mis.cl1dxmbid4hz.eu-central-1.rds.amazonaws.com",
+    "port": 5432,
+    "user": "Mladen",
+    "password": "BiliMis20",
+    "database": "wand"
+  }

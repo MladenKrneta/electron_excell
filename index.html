@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Remaris xls to AWS Potgres</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="convert.js"></script>
+</head>
+<body style="background: white;">
+    <p>
+        Odaberi Excell file i klikni Upload
+    </p>
+    <br>
+    <p>
+        Čekaj dok se prozor ne pojavi
+    </p>
+    <br>
+    <p> 
+        You got This!
+    </p>
+    <hr>
+    <hr>
+    <label id="fileLabel" class="label">No file selcted</label>
+    <hr>
+    <label id="uploadLabel" class="label">No Upload selcted</label>
+
+    <hr>
+    <hr>
+    <button id="selectBtn" class="button is-primary">Select</button>
+    <hr>
+
+    <button id="uploadSelectBtn" class="button is-text">
+        Choose a Upload
+    </button>
+    <hr>
+    <label id="nameLabel" class="label">Ime Klijenta koje ce  biti zapisano u tablici:</label>
+    <input id="nameInput">
+    <br>
+    <label id="tableLabel" class="label">Naziv tablice u koju uploadas</label>
+    <input id="tableInput">
+    <hr>
+    <button id="ConvertBtn" class="button is-warning">Upload</button>
+</body>
+</html>
